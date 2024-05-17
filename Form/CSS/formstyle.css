@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  width: 100%; }
+  
+.logo {
+  width: 100px;
+  height: 100px;
+  padding:10px;
+  margin: 0px;
+}
+  
+.wereld {
+ width:100px;
+  height:100px;
+  padding:10px;
+  margin:0px;
+}
+  
+.backthome {
+  display:inline-block;
+  margin:10px;
+  padding:3px;
+  background-color:gray;
+  color:white;
+  border-radius: 5px;
+  position:center;
+
+}
+
+
+
+.formulier {
+  padding:10px;
+  margin:0px; 
+} 
+
+.overall-flexbox{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+ 
+
+  
+.container1 {
+  background-color:#68DBFF;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  border-right:5px solid #743891;
+  flex-grow:0;
+  max-width:150px;
+ 
+}
+  
+
+.container2 {
+  justify-content:center;
+  display:flex;
+  flex-grow:1;
+  background-color:#aceaff;
+  
+}
+
+input:focus, textarea:focus {
+  outline:none;
+}
+
+h2 {
+  text-align:center;
+}
+
+
+.input {
+  width:300px;
+  border-radius: 4px;
+}
+
+.upload {
+  list-style:none;
+  padding:5px;
+  margin: 5px;
+}
+
+.next-one {
+  background-color: #c49bd8;
+  position:absolute;
+  right:35px;
+  color:white;
+  
+   
+  }
+
+fieldset {
+  border: 2px solid 
+    black;
+  padding:20px 40px;
+  max-width:100%;
+  }
+  
+

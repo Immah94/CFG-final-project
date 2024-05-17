@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>contact form</title>
+  <link href="./CSS/formstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--overall flexbox consists out of 2 flexboxes side by side. Flexboxcontainer 1 has logo, map and go back button. Flexbox container 2 has the form (right side)  -->
+<div class="overall-flexbox">
+  <div class="container1">
+  <img class="logo" src="../newcolorlogo.jpg"  alt="logo across cultures"> 
+  <img class="wereld" src="./wereldmap 2.jpg" alt="map of the world"> 
+    <!-- button needs to be linked to homepage -->
+    <a href="../index.html"><button class="backthome" id="backtohome" type="back to homepage" value="Back to homepage" >Back to home</button></a>
+  </div> 
+
+  
+  <div class="container2">
+    <div class="formulier"> 
+          <h2>Tell us about your tradition</h2>
+      <form action="mailto:xxx@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+             
+      <label id="Country" for="Country">Name of the country: </label>
+      <input class="input" id="Name" type="text"required width="300px"> 
+      <br>
+      <br>
+     
+      <label id="Tradition" for="Tradition">Name of the tradition:</label>
+      <input class="input" id="Tradition" type="text"required width="300px">
+                 
+       <br>
+       <br>
+              
+                 
+      <label id="mail" for="mail">E-mail Address:</label>
+      <input class="input" id="mail" type="text" name="mail" placeholder="xxx@gmail.com" required 
+                       pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$">
+      <br>
+      <br>
+            
+      <label for="Description">Description of tradition:</label>
+          <br>
+      <textarea id="Description" name="Description"  rows="10" cols="45" placeholder="Describe your tradition..."></textarea>
+      <br>
+      <br>
+                
+ <label id="Images" for="Attach up to 3 photos">Images of the tradition:
+ </label>
+<ul>
+<li><button class="upload"style="background-color: grey ;" type="submit">Upload image 1</button></li>
+ <li><button class="upload" style="background-color: grey ;" type="submit">Upload image 2</button></li>
+<li> <button class="upload" style="background-color: grey ;" type="submit">Upload image 3</button></li>
+ </ul>
+ <div class="checkbox">
+ <input id="check" type="checkbox" required >
+ <!-- We need to add the link -->
+<a href="#">I have read and agree with the Terms & Conditions</a>
+</div>
+              <br>
+              <br>
+                
+            
+  <label for="send"></label>
+<a href="mailto:email@email.com"><button style="background-color:#68DBFF;" type="submit">Send</button></a>
+
+<label for="send and new tradition"></label>
+<a href="./formindex.html"><button class="next-one" type="submit and next tradition" value="submit and next tradition">Send and next tradition</a></button>
+            
+      </fieldset>
+      </form>
+      <!-- Check if we want to add js -->
+      <script src="js/validation_form.js"></script>
+      </body>
+      </html>
+      <!-- example: https://www.espai.es/blog/2022/11/como-hacer-un-formulario-con-html-y-css/ -->
+  </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
