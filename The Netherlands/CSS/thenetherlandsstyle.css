@@ -1,0 +1,174 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin:0;
+  padding:0px;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #68dbff;
+}
+
+.flexbox-container1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0%;
+}
+
+
+.smaller1{
+  width:150px;
+  height: 100px;
+  order:1;
+  padding:0%;
+}
+
+.smaller2 {
+  width:150px;
+  height: 100px;
+  order:2;
+  padding:0%;
+}
+
+
+
+.smaller3 {
+  width: 150px;
+  height: 100px;
+  order:3;
+  padding:0%;
+}
+
+
+.normal {
+color: rgba(128, 128, 128, 0.732);
+  height: 5px;
+  text-align: justify;
+  background: rgba(128, 128, 128, 0.732);
+}
+
+h1 {
+  margin: 10px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color:rgba(128, 128, 128, 0.732);
+}
+
+.flexbox-container2 {
+  display: flex;
+  justify-content: center;
+  background-color: #68dbff;
+  height:200px;
+  padding:50px;
+}
+
+.shape {
+  width: 150px;
+  height:150px;
+  
+}
+
+.flexbox-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: space-between;
+  background-color:#68dbff;
+  
+}
+
+.card {
+  position: relative;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(128, 128, 128, 0.732);
+}
+
+h2 {
+  text-align: center;
+}
+
+.dsmaller3 {
+width: 300px;
+height:300px ;
+padding: 10px;
+border-radius: 3px;
+
+}
+
+.dsmaller4 {
+  width: 520px;
+  height:300px ;
+  padding: 10px;
+  border-radius: 3px;
+ 
+}
+
+.dsmaller5 {
+  width: 300px;
+  height:300px ;
+  padding: 10px;
+  border-radius: 3px;
+  
+}
+
+.intro {
+  height: 230 px;
+  width: 350;
+  margin:5px;
+  padding:6px;
+  box-sizing:border-box;
+  position:absolute;
+  background-color: rgb (27,27,27,0.5);
+  color:white;
+  
+}
+
+.hr {
+  color: #68dbff;
+  height: 15 px;
+  text-align: justify;
+  background-color: #68dbff;
+
+
+
+ 
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  right: 2px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.732);
+  color: white;
+  text-align: right;
+  height:30px;
+}
+
+
+
+
